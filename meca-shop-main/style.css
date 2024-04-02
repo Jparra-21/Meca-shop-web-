@@ -106,3 +106,9 @@ body {
 .container-main .container-section .title-main br {
     color: red;
 }
+
+.carousel-inner {
+    width:640px;
+    height:360px;
+    margin:0 auto
+  }
