@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #060711;
+}
+
+.nav-main {
+    margin: 50px 180px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Sansation';
+    border-bottom: 1px solid #383A50;
+}
+
+.nav-main .ul-main-logo {
+    list-style: none;
+    font-weight: 700;
+    align-self: center;
+    padding-left: 0;
+    margin: 0 45px;
+}
+
+.nav-main .ul-main-logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+.nav-main .ul-main {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    font-weight: 300;
+    align-self: center;
+}
+
+.nav-main .ul-main li {
+    margin: 0 30px;
+    font-size: 24px;
+}
+
+.nav-main .ul-main a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-main .ul-main-button {  
+    display: flex;
+    align-self: center; 
+    list-style: none;
+    margin-right: 45px;
+}
+
+.nav-main .ul-main-button li {
+    align-self: center;
+    margin: 0 15px;
+}
+
+.nav-main .ul-main-button .btn-iniciar {
+    cursor: pointer;
+    width: 158px;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    font-family: 'Sansation';
+    font-weight: 300;
+}
+
+.nav-main .ul-main-button .btn-registrar {
+    cursor: pointer;
+    width: 133px;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    color: white;
+    background: #F02D3A;
+    border: 1px;
+    font-family: 'Sansation';
+    font-weight: 300;
+}
+
+.nav-main .ul-main-button i {
+    font-size: 30px;
+}
+
+.container-main .container-section {
+    margin: 20px 180px;
+    color: white;
+    padding: 160px 0 0 45px;
+    font-family: 'Sansation';
+}
+
+.container-main .container-section .welcome {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.container-main .container-section .title-main {
+    font-size: 85px;
+}
+
+.container-main .container-section .title-main br {
+    color: red;
+}
