@@ -87,28 +87,107 @@ body {
     font-size: 30px;
 }
 
+.container-main {
+    display: flex;
+}
+
 .container-main .container-section {
-    margin: 20px 180px;
     color: white;
-    padding: 160px 0 0 45px;
+    padding: 80px 0 0 45px;
+    margin-left: 180px;
     font-family: 'Sansation';
+    width: 850px;
+    height: 800px;
 }
 
 .container-main .container-section .welcome {
     font-size: 28px;
     margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .container-main .container-section .title-main {
     font-size: 85px;
+    font-weight: 700;
 }
 
-.container-main .container-section .title-main br {
+.container-main .container-section .title-main .title-meca {
     color: red;
 }
 
+.container-main .container-section .descrip-title {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 30px 0;
+    width: 760px;
+}
+
+.container-main .container-img-main {
+    width: 40%;
+}
+
+.container-main .container-img-main img {
+    width: 100%;
+}
+
+.container-main .container-section .start-main {
+    cursor: pointer;
+    width: 160px;
+    font-size: 20px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    color: white;
+    background: #F02D3A;
+    border: 1px;
+    font-family: 'Sansation';
+    font-weight: 300;
+}
+
+.second-page-main {
+    background-color: #D1D1D1;
+    font-family: 'Sansation';
+}
+
+.second-page-main .second-page-title {
+    text-align: center;
+}
+
+.second-page-main .second-page-title .title-precio {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 120px;
+}
+
+.second-page-main .second-page-title .title-plan {
+    font-size: 54px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.second-page-main .second-page-title .title-descrip-plan {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 120px;
+}
+
+.second-page-main .row .col-4 .card {
+    width: 420px;
+    height: 585px;
+    border-radius: 20px;
+    margin: 0;
+}
+
+.second-page-main .row .col-4 .card .card-body .card-title {
+    margin: 40px 0 15px 45px;
+}
+
+
+.carousel {
+    margin-top: 250px;
+}
 .carousel-inner {
     width:640px;
     height:360px;
     margin:0 auto
-  }
+}
+
