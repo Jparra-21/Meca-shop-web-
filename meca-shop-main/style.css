@@ -191,3 +191,31 @@ body {
     margin:0 auto
 }
 
+.container-login {
+    display: flex;
+}
+
+.container-login{
+    background-color: #0E132D;
+    border-radius: 20px;
+    margin-top: 250px;
+    margin-left: 621px;
+    font-family: 'Sansation';
+    width: 668px;
+    height: 483px;
+}
+
+.login-title {
+    margin-top: 46px;
+    margin-left: 198px;
+    width: 272px;
+    height: 129px;
+    
+}
+
+.container-login .login-title .h1 {
+    color:#ffffff;
+    font-size: 36px;
+    font-family: 'Sansation';
+    
+}
