@@ -276,3 +276,29 @@ body {
     color:#ffffff;
     font-weight: lighter;
 }
+
+.pie {
+    margin-right: 150px;
+    margin-top: 237px;
+    width: 1620px;
+    height: 110px;
+    color:#D1D1D1;
+    font-family: 'Sansation';
+}
+
+.creditos {
+    margin-left: 50px;
+    size: 16px;
+    font-weight: lighter;
+}
+
+.correo {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.telefono {
+    text-align: right;
+    margin-right: 50px;
+    padding-left: 1200px;
+}
