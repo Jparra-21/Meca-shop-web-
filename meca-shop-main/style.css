@@ -203,6 +203,10 @@ body {
     font-family: 'Sansation';
     width: 668px;
     height: 483px;
+    color:#ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .login-title {
@@ -210,12 +214,65 @@ body {
     margin-left: 198px;
     width: 272px;
     height: 129px;
-    
 }
 
-.container-login .login-title .h1 {
-    color:#ffffff;
+.container-login .login-title .login-title-h1 {
     font-size: 36px;
+    font-weight: bold;
     font-family: 'Sansation';
-    
+    margin: 0px;
+}
+
+.container-login .login-title .login-title-1 {
+    font-size: 24px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+.container-login .login-title .login-title-2 {
+    font-size: 16px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.container-login .login-title .login-title-2 .strong-login {
+    color: red;
+}
+
+.ingreso-datos {
+    margin-top: 21px;
+    margin-left: 31px;
+    width: 606px;
+    height: 74px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+}
+
+.form-login {
+    margin-top: 11px;
+    width: 606px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #161B35;
+    border: 0px;
+    padding: 0px;
+}
+
+.inicio-sesion {
+    width: 211px;
+    height: 51px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #F02D3A;
+    margin-left: 228.5px;
+    margin-top: 21px;
+    padding: 0px;
+    border: 0px;
+    font-size: 16px;
+    color:#ffffff;
+    font-weight: lighter;
 }
