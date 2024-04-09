@@ -302,3 +302,24 @@ body {
     margin-right: 50px;
     padding-left: 1200px;
 }
+
+.container-registro {
+    background-color: #0E132D;
+    border-radius: 20px;
+    margin-top: 210px;
+    margin-left: 500px;
+    font-family: 'Sansation';
+    width: 920px;
+    height: 595px;
+    color:#ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.registro-title {
+    margin-top: 46px;
+    margin-left: 198px;
+    width: 272px;
+    height: 129px;
+}
