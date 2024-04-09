@@ -323,3 +323,81 @@ body {
     width: 272px;
     height: 129px;
 }
+
+.container-registro .registro-title .registro-title-h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Sansation';
+    margin: 0px;
+}
+
+.container-registro .registro-title .registro-title-1 {
+    font-size: 24px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+.container-registro .registro-title .registro-title-2 {
+    font-size: 16px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.container-registro .registro-title .registro-title-2 .strong-registro {
+    color: red;
+}
+
+.ingreso-datos-registro {
+    margin-top: 21px;
+    margin-left: 31px;
+    width: 313px;
+    height: 73px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+}
+
+.form-registro-1 {
+    margin-top: 11px;
+    width: 313px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #161B35;
+    border: 0px;
+    padding: 0px;
+}
+
+.ingreso-datos-registro {
+    margin-top: 21px;
+    margin-left: 31px;
+    width: 313px;
+    height: 73px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+}
+
+.ingreso-datos-registro-1 {
+    margin-top: 21px;
+    margin-left: 31px;
+    width: 700px;
+    height: 73px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Sansation';
+    font-weight: lighter;
+}
+
+.form-registro-2 {
+    margin-top: 11px;
+    width: 700px;
+    height: 45px;
+    background-color: #161B35;
+    border: 0px;
+    padding: 0px;
+    border-radius: 10px;
+}
