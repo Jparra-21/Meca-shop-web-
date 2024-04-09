@@ -307,7 +307,7 @@ body {
     background-color: #0E132D;
     border-radius: 20px;
     margin-top: 210px;
-    margin-left: 500px;
+    margin-left: 530px;
     font-family: 'Sansation';
     width: 920px;
     height: 595px;
@@ -318,10 +318,10 @@ body {
 }
 
 .registro-title {
-    margin-top: 46px;
-    margin-left: 198px;
-    width: 272px;
-    height: 129px;
+    margin-top: 42px;
+    margin-left: 272.5px;
+    width: 375px;
+    height: 125px;
 }
 
 .container-registro .registro-title .registro-title-h1 {
@@ -372,7 +372,7 @@ body {
 
 .ingreso-datos-registro {
     margin-top: 21px;
-    margin-left: 103px;
+    margin-right: 40px;
     width: 313px;
     height: 73px;
     text-align: left;
@@ -400,4 +400,9 @@ body {
     border: 0px;
     padding: 0px;
     border-radius: 10px;
+}
+
+.ingreso-datos-container {
+    display:flex;
+    margin-left: 73px;
 }
